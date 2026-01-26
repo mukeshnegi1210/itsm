@@ -2806,6 +2806,8 @@ header.main-header .header-sticky.active{
     position: relative;
 	text-align: center;
     z-index: 1;
+    max-width: 767px;
+    margin: 0 auto;
 }
 
 .page-header-box h1{
@@ -3606,7 +3608,7 @@ header.main-header .header-sticky.active{
 }
 
 .service-solution-step-item{
-    width: calc(33.33% - 20px);
+    width: calc(24% - 20px);
     background-color: var(--secondary-color);
     border: 1px solid var(--divider-color);
     border-radius: 30px;
@@ -3671,10 +3673,16 @@ header.main-header .header-sticky.active{
     object-fit: cover;
     border-radius: 30px;
 }
-
+.service-trusted-expert-item{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-between;
+}
 .service-trusted-expert-item .success-item{
     background: transparent;
     padding: 40px;
+    max-width: calc(50% - 15px);
+    flex:  0 0 calc(50% - 15px);
 }
 
 .service-trusted-expert-item .success-item::before{
@@ -6922,4 +6930,10 @@ header.main-header .header-sticky.active{
 	.error-page-image img{
 		max-width: 80%;
 	}
+    .service-trusted-expert-item .success-item{
+    background: transparent;
+    padding: 40px;
+    max-width: 100%;
+    flex:  0 0 100%;
+}
 }
