@@ -40,7 +40,7 @@
 	$subject = 'Contact Inquiry from Website';
 
 	//$EmailTo = "info@yourdomain.com"; // Replace with your email.
-    $EmailTo = "awaikentechnology@gmail.com";
+    $EmailTo = "mukeshnegi1210@gmailcom";
     
 	// prepare email body text
 	$Body = "";
